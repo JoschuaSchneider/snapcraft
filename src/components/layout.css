@@ -1,0 +1,42 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+
+body,
+html {
+  @apply bg-gray-100;
+}
+
+.crafting-field {
+  /* border: 1px solid #9e9e9e; */
+}
+
+.item-field {
+  user-select: none;
+  -webkit-user-drag: none;
+  box-sizing: content-box;
+  cursor: pointer;
+  width: 50px;
+  height: 50px;
+  background: #8b8b8b;
+  border-top: 3px solid #373737;
+  border-left: 3px solid #373737;
+  border-right: 3px solid white;
+  border-bottom: 3px solid white;
+  transition: background .1s;
+}
+.item-field:hover {
+  background: #bebebe;
+}
+
+.item-field img {
+  user-select: none;
+  -webkit-user-drag: none;
+  width: 50px;
+  height: 50px;
+}
+
+.item-field:hover img {
+  filter: brightness(1.3);
+}
+
+@import "tailwindcss/utilities";
