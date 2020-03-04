@@ -18,10 +18,9 @@ const IndexPage = () => {
   const [resultImage, setResultImage] = useState(null)
 
   const [recentItems, setRecentItems] = useState(() => {
-    const storedHistory = localStorage.getItem("recent-items")
-    if (!storedHistory) return ["diamond"]
-
     try {
+      const storedHistory = localStorage.getItem("recent-items")
+      if (!storedHistory) return ["diamond"]
       return JSON.parse(storedHistory)
     } catch (e) {
       console.error(e)
