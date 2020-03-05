@@ -69,8 +69,8 @@ function SEO({ description, lang, meta, title }) {
         },
       ].concat(meta)}
     >
-      <link rel="preconnect" href="https://joschuadev-cdn.fra1.cdn.digitaloceanspaces.com" />
-      <link rel="dns-prefetch" href="https://joschuadev-cdn.fra1.cdn.digitaloceanspaces.com" />
+      <link rel="preconnect" href="https://joschuadev-cdn.fra1.digitaloceanspaces.com" />
+      <link rel="dns-prefetch" href="https://joschuadev-cdn.fra1.digitaloceanspaces.com" />
     </Helmet>
   )
 }
