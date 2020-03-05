@@ -2,11 +2,14 @@
 
 ## [Snapcraft](https://snapcraft.netlify.com)
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/7ba0dd67-32ab-4e26-b9cb-18b4ec7d5dc9/deploy-status)](https://snapcraft.netlify.com)
+
 Create beautiful Minecraft inventory Screenshots directly in your browser.
 Select/Search items and place them in the virtual Inventory.
 
-Supports custom Inventory sizes, saves as a PNG.
+Supports custom Inventory sizes, and comes with common presets.
 
+**[Give it a try!](https://snapcraft.netlify.com)**
 
 
 **Crafting Recipe Example**
@@ -16,6 +19,7 @@ Supports custom Inventory sizes, saves as a PNG.
 **Hotbar Example**
 
 ![Hotbar](https://joschuadev-cdn.fra1.cdn.digitaloceanspaces.com/minecraft-snapcraft/snapcraft-snap-inventory.png)
+
 
 ### Technology
 
