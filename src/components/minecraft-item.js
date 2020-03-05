@@ -11,6 +11,7 @@ export default function MinecraftItem({ className = "", name, ...props }) {
         src={`https://joschuadev-cdn.fra1.cdn.digitaloceanspaces.com/minecraft-snapcraft/materials/air.png`}
         alt={"Nicht gefunden"}
         title={`Nicht gefunden "${name}"`}
+        crossOrigin="anonymous"
         {...props}
       />
     )
@@ -22,6 +23,7 @@ export default function MinecraftItem({ className = "", name, ...props }) {
       src={`https://joschuadev-cdn.fra1.cdn.digitaloceanspaces.com/minecraft-snapcraft/materials/${name}.png`}
       alt={itemsByName[name]?.displayName}
       title={`${itemsByName[name]?.displayName} | minecraft:${name}`}
+      crossOrigin="anonymous"
       loader={
         <div
           className="bg-gray-900 opacity-25"
