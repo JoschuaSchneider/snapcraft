@@ -140,6 +140,8 @@ const IndexPage = () => {
             <span className="text-gray-700">Width</span>
             <input
               min={1}
+              step={1}
+              max={100}
               type="number"
               id="width"
               className="block w-full mt-1 form-input"
@@ -151,6 +153,8 @@ const IndexPage = () => {
             <span className="text-gray-700">Height</span>
             <input
               min={1}
+              step={1}
+              max={100}
               type="number"
               id="height"
               className="block w-full mt-1 form-input"
