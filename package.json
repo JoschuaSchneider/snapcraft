@@ -1,9 +1,9 @@
 {
-  "name": "gatsby-starter-default",
+  "name": "snapcraft",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
-  "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "description": "Create beautiful and uniform images of Minecraft inventories!",
+  "version": "1.0.0",
+  "author": "Joschua Schneider <joschua-schneider@web.de>",
   "dependencies": {
     "classnames": "^2.2.6",
     "dom-to-image": "^2.6.0",
@@ -31,9 +31,6 @@
     "autoprefixer": "^9.7.4",
     "prettier": "^1.19.1"
   },
-  "keywords": [
-    "gatsby"
-  ],
   "license": "MIT",
   "scripts": {
     "build": "gatsby build",
@@ -41,14 +38,13 @@
     "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
     "start": "npm run develop",
     "serve": "gatsby serve",
-    "clean": "gatsby clean",
-    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+    "clean": "gatsby clean"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
+    "url": "https://github.com/JoschuaSchneider/snapcraft"
   },
   "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
+    "url": "https://github.com/JoschuaSchneider/snapcraft/issues"
   }
 }
