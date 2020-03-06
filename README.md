@@ -4,6 +4,8 @@
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/7ba0dd67-32ab-4e26-b9cb-18b4ec7d5dc9/deploy-status)](https://snapcraft.netlify.com)
 
+This is a **first working prototype**.
+
 Create beautiful Minecraft inventory Screenshots directly in your browser.
 Select/Search items and place them in the virtual Inventory.
 
