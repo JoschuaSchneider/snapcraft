@@ -32,5 +32,9 @@ Hosted on [Netlify](https://netlify.com)
 
 And a few more! This will be updated soon.
 
+### Report missing item images
+
+Please use [this issue](https://github.com/JoschuaSchneider/snapcraft/issues/1) to report missing item images.
+
 
 **Work in progress, this is the first Hacky version!! Feel free to report issues :)**
