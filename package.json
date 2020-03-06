@@ -24,6 +24,7 @@
     "react-select": "^3.0.8",
     "react-select-virtualized": "^2.3.17",
     "react-virtualized": "^9.21.2",
+    "shortid": "^2.2.15",
     "tailwindcss": "^1.2.0"
   },
   "devDependencies": {

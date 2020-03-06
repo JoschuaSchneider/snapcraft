@@ -11,15 +11,20 @@ Supports custom Inventory sizes, and comes with common presets.
 
 **[Give it a try!](https://snapcraft.netlify.com)**
 
-
-**Crafting Recipe Example**
+**Example images**
 
 ![Crafting Recipe - Eye of Ender](https://joschuadev-cdn.fra1.cdn.digitaloceanspaces.com/minecraft-snapcraft/snapcraft-snap.png)
 
-**Hotbar Example**
-
 ![Hotbar](https://joschuadev-cdn.fra1.cdn.digitaloceanspaces.com/minecraft-snapcraft/snapcraft-snap-inventory.png)
 
+**What can I use this for?**
+
+I had to create screenshots of crafting recipes for a tutorial site on some custom plugins.
+It turns out that taking consistent screenshots of the Gameis not as easy as it seems.
+Cropping and aligning them afterwards still introduced some visible differences in size and alignment.
+
+This tool makes it easy to create any image of i.e. a crafting recipe and exporting it as an PNG image.
+This is especially useful if you want to create animations of multiple recipes.
 
 ### Technology
 
@@ -28,12 +33,13 @@ Hosted on [Netlify](https://netlify.com)
 - Gatsby + React
 - react-select
 - tailwindcss
+- dom-to-image
 - Item data from minecraft-data (MC Version 1.14)
 - Item images hosted on DO Spaces
 
 And a few more! This will be updated soon.
 
-*Why Gatsby?*
+_Why Gatsby?_
 
 In this early stage this is only a single page site.
 But I have a few feature ideas that will be added soon, such as an editor for colored text (For use in configs and chat) based on a HTML like syntax.
@@ -41,6 +47,3 @@ But I have a few feature ideas that will be added soon, such as an editor for co
 ### Report missing item images
 
 Please use [this issue](https://github.com/JoschuaSchneider/snapcraft/issues/1) to report missing item images.
-
-
-**Work in progress, this is the first Hacky version!! Feel free to report issues :)**
