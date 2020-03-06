@@ -1,5 +1,12 @@
-import minecraftData from "minecraft-data"
-const mcData = minecraftData("1.14")
+import items from "./items.json"
+import itemsNameIndexMap from "./items-name-index-map.json"
 
-export const itemsByName = mcData.itemsByName
-export const itemsArray = mcData.itemsArray
+export const getItemByName = name => {
+  const index = itemsNameIndexMap[name]
+  if (index !== undefined) {
+    return items[index]
+  }
+
+  return null
+}
+export const itemsArray = items
