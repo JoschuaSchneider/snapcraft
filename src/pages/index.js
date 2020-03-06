@@ -214,12 +214,6 @@ const IndexPage = () => {
       </div>
       <div className="flex flex-col items-center mt-16 mb-10">
         <span className="text-gray-600">
-          Copyright {new Date().getFullYear()} &copy;{" "}
-          <a href="https://twitter.com/joschuadev" className="text-blue-500">
-            Joschua Schneider
-          </a>
-        </span>
-        <span className="text-gray-600">
           Item images are owned by{" "}
           <a href="https://minecraft.net" className="text-blue-500">
             Minecraft
@@ -227,10 +221,16 @@ const IndexPage = () => {
         </span>
         <a
           href="https://github.com/JoschuaSchneider/snapcraft"
-          className="text-blue-500"
+          className="mb-5 text-blue-500"
         >
           View source on GitHub
         </a>
+        <span className="text-gray-500">
+          Copyright {new Date().getFullYear()} &copy;{" "}
+          <a href="https://twitter.com/joschuadev" className="text-blue-500">
+            Joschua Schneider
+          </a>
+        </span>
       </div>
     </Layout>
   )
