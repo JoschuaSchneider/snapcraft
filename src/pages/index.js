@@ -196,10 +196,6 @@ const IndexPage = () => {
         </div>
       </div>
       <div className="flex flex-col items-center mt-16 mb-10">
-        <span className="max-w-2xl mb-3 text-center text-red-500">
-          There are some missing items that don't have Images, they will be
-          added in the future!
-        </span>
         <span className="text-gray-600">
           Copyright {new Date().getFullYear()} &copy;{" "}
           <a href="https://twitter.com/joschuadev" className="text-blue-500">
