@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: `Create simple Minecraft Inventory screenshots`,
-    description: `Create beautiful screenshots of a minecraft inventory, save images and use them anywhere!`,
+    title: `Beautiful Minecraft inventory screenshots.`,
+    description: `Create beautiful and uniform images of a virtual Minecraft inventory, save images and use them in tutorials or anywhere else!`,
     author: `@joschuadev`,
   },
   plugins: [
