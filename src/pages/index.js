@@ -146,7 +146,9 @@ const IndexPage = () => {
               id="width"
               className="block w-full mt-1 form-input"
               value={width}
-              onChange={e => setWidth(e.target.valueAsNumber.toFixed(0))}
+              onChange={e =>
+                setWidth(Number(e.target.valueAsNumber.toFixed(0)))
+              }
             />
           </label>
           <label htmlFor="width" className="flex-grow block mx-3">
@@ -159,7 +161,9 @@ const IndexPage = () => {
               id="height"
               className="block w-full mt-1 form-input"
               value={height}
-              onChange={e => setHeight(e.target.valueAsNumber.toFixed(0))}
+              onChange={e =>
+                setHeight(Number(e.target.valueAsNumber.toFixed(0)))
+              }
             />
           </label>
         </div>
