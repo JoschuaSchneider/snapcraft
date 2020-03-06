@@ -26,11 +26,17 @@ Supports custom Inventory sizes, and comes with common presets.
 Hosted on [Netlify](https://netlify.com)
 
 - Gatsby + React
-- node-minecraft-data (for name/label information)
 - react-select
 - tailwindcss
+- Item data from minecraft-data (MC Version 1.14)
+- Item images hosted on DO Spaces
 
 And a few more! This will be updated soon.
+
+*Why Gatsby?*
+
+In this early stage this is only a single page site.
+But I have a few feature ideas that will be added soon, such as an editor for colored text (For use in configs and chat) based on a HTML like syntax.
 
 ### Report missing item images
 
