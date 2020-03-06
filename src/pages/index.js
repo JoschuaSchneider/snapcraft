@@ -54,7 +54,7 @@ const IndexPage = () => {
 
   return (
     <Layout>
-      <SEO title="Snapcraft" thumbnail="/snapcraft-thumbnail.png" />
+      <SEO title="Snapcraft" thumbnail="https://snapcraft.netlify.com/snapcraft-thumbnail.jpg" />
       <header className="flex flex-col px-5 py-6">
         <a href="/" className="text-3xl font-semibold text-gray-700">
           <span className="text-green-500">Snap</span>craft
