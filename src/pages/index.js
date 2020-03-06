@@ -71,7 +71,9 @@ const IndexPage = () => {
         >
           <CraftingField
             ref={fieldRef}
-            onItemClick={(x, y, item) => setItemAt(x, y, currentItem.name)}
+            onItemClick={(x, y, item) =>
+              setItemAt(x, y, currentItem ? currentItem.name : null)
+            }
             width={width > 0 ? width : 1}
             height={height > 0 ? height : 1}
             items={items}
