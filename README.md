@@ -15,9 +15,9 @@ Supports custom Inventory sizes, and comes with common presets.
 
 **Example images**
 
-![Crafting Recipe - Eye of Ender](https://joschuadev-cdn.fra1.cdn.digitaloceanspaces.com/minecraft-snapcraft/snapcraft-snap.png)
+![Crafting Recipe - Eye of Ender](https://snapcraft.netlify.com/snapcraft-snap.png)
 
-![Hotbar](https://joschuadev-cdn.fra1.cdn.digitaloceanspaces.com/minecraft-snapcraft/snapcraft-snap-inventory.png)
+![Hotbar](https://snapcraft.netlify.com/snapcraft-snap-inventory.png)
 
 **What can I use this for?**
 
@@ -37,7 +37,7 @@ Hosted on [Netlify](https://netlify.com)
 - tailwindcss
 - dom-to-image
 - Item data from minecraft-data (MC Version 1.14)
-- Item images hosted on DO Spaces
+- Unified item images
 
 And a few more! This will be updated soon.
 
